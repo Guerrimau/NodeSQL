@@ -5,7 +5,7 @@ const router = Router();
 
 // // const dbConnection = require('../database');
 
-router.get('/nutriologos', async ( req, res ) => {
+router.get('/comidas', async ( req, res ) => {
 
     
     // // const db = await dbConnection();
@@ -14,7 +14,7 @@ router.get('/nutriologos', async ( req, res ) => {
 
     return res.status(200).json({
         ok: true,
-        nutriologos: "*Lista de Nutriologos*"
+        comidas: "*Lista de Comidas*"
     })
 });
 
