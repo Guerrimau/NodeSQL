@@ -1,0 +1,13 @@
+NODE_ENV=development
+
+#Server config
+PORT=8080
+HOST=localhost
+HOST_URL=http://localhost:8080
+
+#Sql config
+SQL_USER=sa
+SQL_PASSWORD=@PASSWORD
+SQL_DATABASE=NUTRIADMIN
+SQL_SERVER=localhost
+SQL_ENCRYPT=false 
